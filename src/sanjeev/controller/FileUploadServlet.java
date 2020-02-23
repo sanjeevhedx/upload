@@ -50,6 +50,7 @@ public class FileUploadServlet extends HttpServlet {
 				String message = null;
 				// obtains the upload file part in this multipart request
 				Part filePart = request.getPart("photo");
+				
 				if (filePart != null) {
 					// prints out some information for debugging
 					System.out.println(filePart.getName());
@@ -72,9 +73,6 @@ public class FileUploadServlet extends HttpServlet {
 					message = "File uploaded and saved into database";
 					System.out.println(message);
 				}
-		
-		
-		
 	}
 
 	/**

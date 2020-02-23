@@ -18,8 +18,7 @@
 		<h1 class="text-center">File Upload to Database Example - Servlet JSP JDBC MySQL </h1>
 		<div class="card">
 			<div class="card-body">
-				<form method="post" class="form-group" action="FileUploadServlet"
-					enctype="multipart/form-data">
+				<form method="post" class="form-group" action="FileUploadServlet" enctype="multipart/form-data">
 					<div class="form-group">
 						<label for="first name">First Name: </label> <input type="text"
 							class="form-control" name="firstName" size="50" />
@@ -30,8 +29,8 @@
 					</div>
 
 					<div class="form-group">
-						<label for="Profile Photo">Profile Photo:</label> <input
-							type="file" name="photo" size="50" />
+						<label for="Profile Photo">Profile Photo:</label> 
+						<input type="file" name="photo" size="50" />
 					</div>
 					<input type="submit" value="Save" class="btn btn-success">
 				</form>
